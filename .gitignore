@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / tool-specific (local settings, not project config)
+.vscode/
+.claude/
+
+# Runtime data - created automatically by the app, not part of source
+uploads/
+logs/
+
+# Java build artifacts
+java-email-service/target/
+*.class
+
+# Contains real SMTP credentials when populated by scripts/configure_smtp.sh
+*.properties.backup
